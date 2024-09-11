@@ -3,8 +3,18 @@
   width: 100px;
   background-color: darkgray;
   cursor: pointer;
+  border: 1px solid black;
+  border-radius: 1rem;
 }
 
 .Cell-lit {
   background-color: white;
+}
+
+.Cell:active {
+  background-color: aqua;
+}
+
+.Cell:hover {
+  box-shadow: 3px 3px;
 }
